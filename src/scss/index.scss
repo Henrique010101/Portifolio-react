@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@import "./variables.scss";
+
+@import "./components/scrollToTop";
+@import "./components/footer";
+@import "./components/navBar";
+
+@import "./components/sections/home.scss";
+@import "./components/sections/sobre.scss";
+@import "./components/sections/projetos.scss";
+@import "./components/sections/contato.scss";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+
+html {
+ scroll-behavior: auto;
+};
+
+Strong {
+    color: #FF4500;
+};
+.app-container {
+    height: 100vh;
+    width: 100vw;
+}
