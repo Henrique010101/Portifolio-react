@@ -3,7 +3,7 @@
 .Section {
     width: 100vw;
     height: 36rem;
-    background-color: #EEF0E5;
+    background-color: var(--fundo-padrao);
 
     .Contant {
         width: 28.1875rem;
@@ -13,7 +13,7 @@
     };
     
     .titulo {
-        color: #163020;
+        color: var(--escrito-claro);
         font-size: 2rem;
         font-style: normal;
         font-weight: 500;
@@ -32,106 +32,69 @@
 
     .imagemLegal{
       position: absolute;
-      left: 15rem;
-      bottom: 3.8rem;
+      left: 13rem;
+      bottom: 3rem;
 
     };
 
     .Ellipse{
       position: absolute;
-      top: 12.5rem;
-      right: 15.4rem;
+      top: 30%;
+      right: 16%;
     };
 
     .Eu{
       width: 113px;
       height: 146px;
       position: absolute;
-      top: 8rem;
-      right: 17rem;
+      top: 19%;
+      right: 18%;
       border-radius: 48px;
     };
     
     .ContantButtons {
         display: flex;
         flex-wrap: wrap;
-        width: 29.5625rem;
-        height: 13.6875rem;
+        width: 23.5625rem;
+        height: 9.6875rem;
         position: absolute;
-        bottom: 0rem;
-        right: 3rem;
+        bottom: 3%;
+        right: 8%;
         gap: 0rem 3rem;
     
-    .gitHub {
-        width: 10.25rem;
-        height: 3.625rem;
-        flex-shrink: 0;
-        border-radius: 1.4375rem;
-        border: 2px solid #FFFF;
-        background: var(--padrao-gradient);
-        box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
-        &:hover {
-        background: linear-gradient(96deg, #BD00FF 2.05%, #FF4E79 100%);
-        color: #000000;
-        }
-        color: #163020;
-        font-size: 1.25rem;
-        font-style: normal;
-        font-weight: 500;
-      }
-    
-    .linkedin {
-        width: 10.25rem;
-        height: 3.625rem;
-        flex-shrink: 0;
-        border-radius: 1.4375rem;
-        border: 2px solid #FFFF;
-        background: var(--padrao-gradient);
-        box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
-      &:hover {
-        background: linear-gradient(96deg, #1A23FF 2.05%, #7DC4DB 100%);
-        color: #000000;
-      }
-        color: #163020;
-        font-size: 1.25rem;
-        font-style: normal;
-        font-weight: 500;
-    };
+        button {
+          width: 10.25rem;
+          height: 3.625rem;
+          flex-shrink: 0;
+          border-radius: 1.4375rem;
+          border: var(--borda);
+          background: var(--padrao-gradient);
+          box-shadow: var(----button-shadow);
+          color: var(--escrito-escuro);
+          font-size: 1.25rem;
+          font-style: normal;
+          font-weight: 500;
+          color: var(--escrito-claro);
 
-    .treinee {
-        width: 10.25rem;
-        height: 3.625rem;
-        flex-shrink: 0;
-        border-radius: 1.4375rem;
-        border: 2px solid #FFFF;
-        background: var(--padrao-gradient);
-        box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
-      &:hover {
-        background: linear-gradient(96deg, #4C724C 2.05%, #D9CDAE 100%);
-        color: #000000;
+          &:hover {
+              color: black;
+          }
       }
-        color: #163020;
-        font-size: 1.25rem;
-        font-style: normal;
-        font-weight: 500;
-    };
 
-    .freelancer {
-        width: 10.25rem;
-        height: 3.625rem;
-        flex-shrink: 0;
-        border-radius: 1.4375rem;
-        border: 2px solid #FFFF;
-        background: var(--padrao-gradient);
-        box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
-      &:hover {
-        background: linear-gradient(96deg, #C0C0C0 2.05%, #AD7D02 100%);
-        color: #000000;
+      .gitHub:hover {
+          background: linear-gradient(96deg, #BD00FF 2.05%, #FF4E79 100%);
       }
-        color: #163020;
-        font-size: 1.25rem;
-        font-style: normal;
-        font-weight: 500;
-    };
+
+      .linkedin:hover {
+          background: linear-gradient(96deg, #1A23FF 2.05%, #7DC4DB 100%);
+      }
+
+      .treinee:hover {
+          background: linear-gradient(96deg, #4C724C 2.05%, #D9CDAE 100%);
+      }
+
+      .freelancer:hover {
+          background: linear-gradient(96deg, #C0C0C0 2.05%, #AD7D02 100%);
+      };
   };
 };

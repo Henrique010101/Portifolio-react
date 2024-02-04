@@ -1,6 +1,30 @@
-
-.Section2 {
+.section2 {
     width: 100vw;
     height: 38rem;
     background: var(--padrao-gradient);
-};
+    display: flex;
+    flex-wrap: wrap;
+  
+    .contantText {
+      padding: 8% 0% 0% 8%;
+      width: 33rem;
+      height: 7rem;
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 400;
+    }
+  
+    .contantSkils {
+      position: absolute;
+      right: 30%;
+      top: 105%;
+      padding-left: 3%;
+      border-left: 1px solid #163020;
+      width: 22%;
+      height: 70%;
+      font-size: 1.7rem;
+      font-style: normal;
+      font-weight: 400;
+    }
+  }
+  

@@ -13,8 +13,10 @@ function Home ()  {
             </h1>
             </div>
             <img src={ImagemLegal} alt="Uma pessoa no computador" className="imagemLegal" />
+            <div className="overlay">
             <img src={Ellipse} alt="'-'" className="Ellipse"/>
             <img src={Eu} alt="Uma foto minha" className="Eu" />
+            </div>
             <div className="ContantButtons">
                 <button className="gitHub">Github</button>
                 <button className="treinee">Treinee</button>
