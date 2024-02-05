@@ -15,16 +15,27 @@
     }
   
     .contantSkils {
-      position: absolute;
-      right: 30%;
-      top: 105%;
       padding-left: 3%;
+      margin-top: 3%;
       border-left: 1px solid #163020;
       width: 22%;
       height: 70%;
       font-size: 1.7rem;
       font-style: normal;
       font-weight: 400;
+
+      .skills {
+
+        .imgContainer{
+          width: 75px;
+          height: 43px;
+          background-image: url(../../../assets/Rectangle.png);
+        }
+        .img{
+          
+        }
+  
+      }
     }
   }
   

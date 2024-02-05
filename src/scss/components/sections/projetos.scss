@@ -1,6 +1,41 @@
 
-.Section3 {
+.section3 {
     width: 100vw;
     height: 38rem;
     background-color: #EEF0E5;
+    padding-top: 3%;
+    padding-left: 6%;
+
+    .projetosContant {
+
+
+
+        .projetosGrid {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 7%;
+            gap: 6%;
+
+            .projeto1{
+                width: 200px;
+                height: 200px;
+            }
+            .projeto2{
+                width: 200px;
+                height: 200px;
+            }
+            .projeto3{
+                width: 200px;
+                height: 200px;
+            }
+            .projeto4{
+                width: 200px;
+                height: 200px;
+            }
+            .descriçãoProjeto{
+                
+            }
+        }
+    }
 }

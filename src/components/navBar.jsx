@@ -1,5 +1,5 @@
 import React from "react";
-// import Bandeira from "./../assets/bandeiraIUG.png";
+import Bandeira from "../assets/bandeiraUK.png";
 import Home from "./sections/home";
 import Sobre from "./sections/sobre";
 import Projetos from "./sections/projetos";
@@ -14,8 +14,8 @@ const Navbar = () => {
       <a className="NavAncora" href="/#">Projetos</a>
       <a className="NavAncora" href="/#">Contato</a>
       <div className="Bandeiras">
-      <button className="BRbandeira" />
-      <button className="UKbandeira" />
+      <img src={Bandeira} className="BRbandeira" />
+      <img className="UKbandeira" />
       </div>
     </div>
   );

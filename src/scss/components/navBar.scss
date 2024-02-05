@@ -1,9 +1,7 @@
-@import "../variables.scss";
-
 .ContainerBar {
     width: 100vw;
     height: 4.5rem;
-    border-bottom: 1px solid #163020;
+    border-bottom: 1px solid var(--escrito-claro);
     opacity: 0.8;
     background: var(--padrao-gradient);
     flex-shrink: 0;
@@ -13,14 +11,14 @@
 };
 
 .NavAncora {
-    color: #0C1B11;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-size: 2.1rem;
+    color: var(--escrito-escuro);
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 2rem;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 2.5rem;
     &:hover{
-        color: #0C1B11 32%;
+        opacity: 0.7;
     };
 };
 
@@ -28,7 +26,7 @@
     display: flex;
     position: absolute;
     right: 1rem;
-    gap: 10px;
+    gap: 0.3rem;
 }
 
 .UKbandeira {
