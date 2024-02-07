@@ -1,13 +1,13 @@
 .Section {
     width: 100vw;
-    height: 40rem;
+    height: 97%;
     background-color: var(--fundo-padrao);
+    padding: 10% 5% 5% 5%;
+    display: flex;
 
     .Contant {
         width: 28.1875rem;
-        position: absolute;
-        left: 8.3rem;
-        top: 9rem;
+        
     };
     
     .titulo {
@@ -16,52 +16,40 @@
         font-style: normal;
         font-weight: 500;
         line-height: normal;
-        text-align: center;
+        text-align: start;
     };
     
     .StyledImage {
         width: 16.3125rem;
         height: 13.125rem;
         flex-shrink: 0;
-        position: absolute;
-        bottom: 4rem;
-        left: 14rem;
     };
 
     .imagemLegal{
-      position: absolute;
-      left: 13rem;
-      bottom: 3rem;
-
+      border-radius: 200px;
+      width: 16.3125rem;
+      height: 13.125rem;
     };
 
     .Ellipse{
-      position: absolute;
-      top: 29.5%;
-      right: 16.3%;
+
     };
 
     .Eu{
       width: 113px;
       height: 146px;
-      position: absolute;
-      top: 19%;
-      right: 18%;
       border-radius: 48px;
     };
     
     .ContantButtons {
         display: flex;
         flex-wrap: wrap;
-        width: 23.5625rem;
-        height: 9.6875rem;
-        position: absolute;
-        bottom: 3%;
-        right: 8%;
-        gap: 0rem 3rem;
+        width: 23rem;
+        height: 10rem;
+        gap: 0px 10px;
     
         button {
-          width: 10.25rem;
+          width: 44%;
           height: 3.625rem;
           flex-shrink: 0;
           border-radius: 1.4375rem;
