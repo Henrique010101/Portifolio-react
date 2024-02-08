@@ -1,53 +1,82 @@
-.ContainerBar {
-    position: fixed;
-    opacity: unset;
-    width: 100vw;
-    height: 4.5rem;
+header { 
+    width: 100%;
+    height: 4rem;
     border-bottom: 1px solid var(--escrito-claro);
     opacity: 1;
     background: var(--padrao-gradient);
-    flex-shrink: 0;
     display: flex;
     align-items: center;
-    list-style-type: none;
+    position: fixed;
+    z-index: 10;
+}
 
-};
+.ContainerBar {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    margin-left: 20px;
+}
 
-.NavAncora {
+.NavList{
+    list-style: none;
+    display: flex;
+    gap: 6rem;
     color: var(--escrito-escuro);
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 2rem;
     font-style: normal;
     font-weight: 500;
-    margin-left: 2.5rem;
-    &:hover{
-        opacity: 0.7;
-    };
-};
 
-.Bandeiras {
-    display: flex;
-    position: absolute;
-    right: 2%;
-    gap: 0.3rem;
+    .NavAncora {
+        color: var(--escrito-escuro);
+        text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 500;
+        padding-block: 16px;
+        
+        &:hover{
+            opacity: 0.7;
+        }
+    }
 }
 
-.UKbandeira {
+.Bandeiras {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+}
+
+.UKbandeira,
+.BRbandeira {
     width: 2.5625rem;
     height: 1.75rem;
 
     &:hover{
-        color: 50%;
+        opacity: 0.7;
+        transform: scale(1.1, 1.1);
     }
 };
 
-.BRbandeira {
-    width: 2.5625rem;
-    height: 1.75rem;    
-
-    &:hover{
-        color: 50%;
-    };
-};
     
+// @media screen and (max-width: 750px){
+//     .hamburger{
+//         visibility: hidden;
+//     }
 
+//     .NavList{
+//         position: fixed;
+//         top: 0;
+//         left: 0;
+//         width: 100vw;
+//         height: 100vh;
+//         background: var(--padrao-gradient);
+
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
+//         gap: 4erm;
+//     }
+// }

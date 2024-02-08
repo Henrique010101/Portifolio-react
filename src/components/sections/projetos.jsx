@@ -10,7 +10,7 @@ function projetos() {
         <img className="projeto1" src=""/>Descrição do projeto
         </div>
         <div className="descriçãoProjetos">
-        <img className="projeto2" src={Login} alt="Projeto2" />Descrição do projeto
+        <img className="projeto2" src={Login} alt="Projeto2" />React & Styled components
         </div>
         <div className="descriçãoProjetos">
         <img className="projeto3" src=""/>Descrição do projeto

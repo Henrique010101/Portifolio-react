@@ -1,9 +1,10 @@
 .Section {
     width: 100vw;
-    height: 97%;
+    height: calc(100vh - 4.5rem);
     background-color: var(--fundo-padrao);
     padding: 10% 5% 5% 5%;
     display: flex;
+    justify-content: space-around;
 
     .Contant {
         width: 28.1875rem;
@@ -61,9 +62,12 @@
           font-style: normal;
           font-weight: 500;
           color: var(--escrito-claro);
+          transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 
           &:hover {
               color: black;
+              transform: scale(1.1, 1.1);
+              
           }
       }
 

@@ -18,10 +18,10 @@ function Home ()  {
             <img src={Eu} alt="Uma foto minha" className="Eu" />
             </div>
             <div className="ContantButtons">
-                <button className="gitHub">Github</button>
-                <button className="treinee">Treinee</button>
-                <button className="linkedin">Linkedin</button>
-                <button className="freelancer">Freelancer</button>
+                <button formTarget="blank" className="gitHub">Github</button>
+                <button formTarget="blank" className="treinee">Treinee</button>
+                <button formTarget="blank" className="linkedin">Linkedin</button>
+                <button formTarget="blank" className="freelancer">Freelancer</button>
             </div>
         </div>
 
