@@ -16,24 +16,24 @@ function sobre() {
     </div>
     <div className="contantSkils">Habilidades:
     <div className="skills">
-      <a className="imgContainer">
+      <button className="imgContainer">
           <img className="img" src={Git} alt="Descrição da imagem do Git" />
-      </a>
-      <a className="imgContainer">
+      </button>
+      <button className="imgContainer">
           <img className="img" src={Html} alt="Descrição da imagem do HTML" />
-      </a>
-      <a className="imgContainer">
+      </button>
+      <button className="imgContainer">
           <img className="img" src={JavaScript} alt="Descrição da imagem do JavaScript" />
-      </a>
-      <a className="imgContainer">
+      </button>
+      <button className="imgContainer">
           <img className="img" src={Css} alt="Descrição da imagem do CSS" />
-      </a>
-      <a className="imgContainer">
+      </button>
+      <button className="imgContainer">
           <img className="img" src={Figma} alt="Descrição da imagem do Figma" />
-      </a>
-      <a className="imgContainer">
+      </button>
+      <button className="imgContainer">
           <img className="img" src={ReactS} alt="Descrição da imagem do React" />
-      </a>
+      </button>
       </div>
     </div>
     </div>

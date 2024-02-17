@@ -1,6 +1,82 @@
 
 .Section4 {
     width: 100vw;
-    height: 35%;
+    height: 100%;
     background: var(--padrao-gradient);
+    display: flex;
+    padding:5% 0% 0% 5%;
+    font-size: 1.5rem;
+    .Buttons {
+        margin: 8% 0 0 35%;
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        width: 40%;
+        height: 70%;
+
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 21rem;
+            height: 4rem;
+            flex-shrink: 0;
+            border-radius: 1.9rem;
+            border: var(--borda);
+            box-shadow: var(--button-shadow);
+            color: var(--escrito-escuro);
+            font-size: 1.4rem;
+            font-style: normal;
+            font-weight: 500;
+            cursor: pointer;
+            transition: var(--transicao-botao);
+            &:hover {
+                transform: scale(1.1, 1.1);
+            }
+        }
+        .Whats {
+            background: linear-gradient(96deg, #59BE59 2.05%, #E5D19C 100%);
+            gap: 10px;
+            
+            .WhatsImg{
+                width: 35px;
+                height: 35px;
+            }
+        }
+
+        .Curriculo {
+            background: linear-gradient(96deg, #59BE59 2.05%, #E5D19C 100%);
+        }
+    }
+
+    .LinksCountainer {
+        padding-top: 4%;
+        width: 30rem;
+        height: 30rem;
+        display: flex;
+        gap: 20%;
+        flex-direction: column;
+
+        .IconContainer {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            transition: var(--transicao-botao);
+            &:hover {
+                transform: scale(1.1, 1.1);
+                font-weight: 500;
+            }
+
+            .Icon {
+                width: 35px;
+                height: 35px;
+            }
+
+            a {
+                color: var(--escrito-escuro);
+                font-size: 1.2rem;
+                font-style: normal;
+            }
+        }
+    }
 }

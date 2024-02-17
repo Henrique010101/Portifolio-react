@@ -1,13 +1,14 @@
 
 .section3 {
     width: 100vw;
-    height: 97%;
+    height: 100%;
     background-color: #EEF0E5;
     padding-top: 3%;
     padding-left: 6%;
 
     .projetosContant {
         font-size: 1.7rem;
+        font-weight: 500;
 
         .projetosGrid {
             font-size: 1.1rem;
@@ -20,8 +21,9 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                font-weight: 400;
                 
-                transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+                transition: var(--transicao-botao);
 
                 &:hover {
                     transform: scale(1.4, 1.4);

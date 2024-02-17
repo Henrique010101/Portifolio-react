@@ -1,7 +1,7 @@
-import React from 'react';
-import ImagemLegal from "../../assets/imagemLegal.png"
+import React from "react";
+import ImagemLegal from "../../assets/imagemLegal.png";
 import Eu from "../../assets/Minha_foto.png";
-import Ellipse from "../../assets/Ellipse1.png";
+import fundoFoto from "../../assets/fundoDaFoto.png";
 
 function Home ()  {
     return (
@@ -12,17 +12,17 @@ function Home ()  {
                 Bem vindo ao meu portfólio! Sou desenvolvedor web.
             </h1>
             </div>
-            <img src={ImagemLegal} alt="Uma pessoa no computador" className="imagemLegal" />
             <div className="overlay">
-            <img src={Ellipse} alt="'-'" className="Ellipse"/>
+            <img src={fundoFoto} alt="'-'" className="FundoFoto"/>
             <img src={Eu} alt="Uma foto minha" className="Eu" />
             </div>
-            <div className="ContantButtons">
+            <img src={ImagemLegal} alt="Uma pessoa no computador" className="imagemLegal" />
+            {/* <div className="ContantButtons">
                 <button formTarget="blank" className="gitHub">Github</button>
                 <button formTarget="blank" className="treinee">Treinee</button>
                 <button formTarget="blank" className="linkedin">Linkedin</button>
                 <button formTarget="blank" className="freelancer">Freelancer</button>
-            </div>
+            </div> */}
         </div>
 
     );
