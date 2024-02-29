@@ -32,7 +32,7 @@ function sobre() {
           <img className="img" src={Figma} alt="Descrição da imagem do Figma" />
       </button>
       <button className="imgContainer">
-          <img className="img" src={ReactS} alt="Descrição da imagem do React" />
+          <img className="react"  src={ReactS} alt="Descrição da imagem do React" />
       </button>
       </div>
     </div>

@@ -15,7 +15,7 @@ function Contato () {
         </div>
         <div className="IconContainer">
           <img className="Icon" src={Linkedin} alt="LinkedIn Icon" />
-          <a className="LinkedinA" href="https://www.linkedin.com/in/henrique-guimar%C3%A3es-5b81851b6/" target="_blank" rel="noopener noreferrer">Henrique Guimarães</a>
+          <a className="LinkedinA" href="https://www.linkedin.com/in/henrique-guimar%C3%A3es-35426b233/" target="_blank" rel="noopener noreferrer">Henrique Guimarães</a>
         </div>
         <div className="IconContainer">
           <img className="Icon" src={Email} alt="Email Icon" />

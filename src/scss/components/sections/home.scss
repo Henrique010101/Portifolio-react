@@ -1,15 +1,30 @@
 .Section {
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     background-color: var(--fundo-padrao);
-    padding: 10% 5% 5% 5%;
+    padding: 10% 0% 5% 5%;
     display: flex;
     flex-wrap: wrap;
     gap: 20%;
 
+    @media screen and (max-width: 1300px){
+        gap: 12%;
+    }
+    @media screen and (max-width: 1140px) {
+        gap: 6%;
+    }
+    @media screen and (max-width: 960px) {
+        gap: 0%;
+    }
+    @media screen and (max-width: 790px) {
+        flex-direction: column;
+        
+    }
+
     .Contant {
-        
-        
+        @media screen and (max-width: 768px) {
+            margin-top: 3rem;
+        }
     };
     
     .titulo {
@@ -20,40 +35,55 @@
         line-height: normal;
         text-align: start;
         max-width: 28rem;
+        
+        @media screen and (max-width: 790px) {
+            font-size: 1.6rem;
+            max-width: 24rem;
+        }
+        @media screen and (max-width: 500px) {
+            font-size: 1.2rem;
+            max-width: 18rem;
+        }
     };
     
-    .StyledImage {
-        width: 16.3125rem;
-        height: 13.125rem;
-        flex-shrink: 0;
-    };
-
-    .imagemLegal{
+    .imagemLegal {
       border-radius: 200px;
       width: 16.3125rem;
       height: 13.125rem;
-      margin-left: 2rem
-    };
+      position: absolute;
+      bottom: 2rem;
+
+      @media screen and (max-width: 1280px){
+        margin-left: 3;
+        }
+        @media screen and (max-width: 790px) {
+            visibility: hidden;
+        }
+    }
 
     .overlay{
         position: relative;
+
+        @media screen and (max-width: 1300px) {
+            right: 5rem;
+        }
+        @media screen and (max-width: 1140px) {
+            right: 17rem;
+            top: 2rem;
+        }
+        @media screen and (max-width: 910px) {
+           
+        }
+        @media screen and (max-width: 790px) {
+            right: 20rem;
+            top: 8rem;
+        }
     }
 
     .FundoFoto {
         position: absolute;
         top: -3.5rem;
         left: 23.4rem;
-
-        @media screen and (max-width: 1280px){
-            left: 13.4rem;
-        }
-        @media screen and (max-width: 1000px) {
-            left: 4.4rem;
-            top: -2rem;
-        }
-        @media screen and (max-width: 768px) {
-            left: -5rem;
-        }
     }
     
     .Eu{
@@ -63,62 +93,34 @@
       position: absolute;
       top: -0.6rem;
       left: 26rem;
-
-      @media screen and (max-width: 1280px){
-        left: 16rem;
-      }
-      @media screen and (max-width: 1000px) {
-        left: 7rem;
-        top: 0.8rem;
-      }
-      @media screen and (max-width: 768px) {
-        left: -2.4rem;
-    }
     }
     
-    .ContantButtons {
-        display: flex;
-        flex-wrap: wrap;
-        width: 23rem;
-        height: 10rem;
-        gap: 0px 10px;
-    
-        button {
-          width: 44%;
-          height: 3.625rem;
-          flex-shrink: 0;
-          border-radius: 1.4375rem;
-          border: var(--borda);
-          background: var(--padrao-gradient);
-          box-shadow: var(----button-shadow);
-          color: var(--escrito-escuro);
-          font-size: 1.25rem;
-          font-style: normal;
-          font-weight: 500;
-          color: var(--escrito-claro);
-          transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-
-          &:hover {
-              color: black;
-              transform: scale(1.1, 1.1);
-              
-          }
-      }
-
-      .gitHub:hover {
-          background: linear-gradient(96deg, #BD00FF 2.05%, #FF4E79 100%);
-      }
-
-      .linkedin:hover {
-          background: linear-gradient(96deg, #1A23FF 2.05%, #7DC4DB 100%);
-      }
-
-      .treinee:hover {
-          background: linear-gradient(96deg, #4C724C 2.05%, #D9CDAE 100%);
-      }
-
-      .freelancer:hover {
-          background: linear-gradient(96deg, #C0C0C0 2.05%, #AD7D02 100%);
-      };
-  };
+    .SetaContato {
+        width: 252px;
+        height: 83px;
+        margin-top: 30%;
+        margin-left: 4%;
+        cursor: pointer;
+        transition: var(--transicao-botao);
+        
+        &:hover{
+            transform: scale(1.01, 1.01);
+        }
+        @media screen and (max-width: 1300px) {
+            margin-top: 40%;
+            margin-left: 10%;
+        }
+          @media screen and (max-width: 1100px) {
+        }
+          @media screen and (max-width: 960px) {
+            margin-top: 54%;
+            margin-left: 5%;
+        }
+        @media screen and (max-width: 600px) {
+            margin-top: 74%;
+        }
+        @media screen and (max-width: 420px) {
+            margin-top: 110%;
+        }
+    }
 };

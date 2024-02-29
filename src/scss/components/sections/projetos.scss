@@ -3,43 +3,49 @@
     width: 100vw;
     height: 100%;
     background-color: #EEF0E5;
-    padding-top: 3%;
-    padding-left: 6%;
+    padding: 3%;
 
     .projetosContant {
         font-size: 1.7rem;
         font-weight: 500;
+        margin-left: 6%;
+    }
+    a {
+        color: black;
+    }
 
-        .projetosGrid {
-            font-size: 1.1rem;
+    .projetosGrid {
+        font-size: 1.1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+        gap: 10%;
+        padding: 4%;
+        background: var(--padrao-gradient);
+        border-radius: 15px;
+
+        .descriçãoProjetos {
             display: flex;
+            flex-direction: column;
             align-items: center;
-            margin-top: 10%;
-            gap: 10%;
+            font-weight: 400;
+            transition: var(--transicao-botao);
 
-            .descriçãoProjetos {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                font-weight: 400;
-                
-                transition: var(--transicao-botao);
-
-                &:hover {
-                    transform: scale(1.4, 1.4);
-                }
+            &:hover {
+                transform: scale(1.4, 1.4);
             }
+        }
 
-            .projeto1,
-            .projeto2,
-            .projeto3,
-            .projeto4 {
-                width: 200px;
-                height: 200px;
-                border: 1px solid var(--escrito-escuro);
-                border-radius: 10px;
-
-            }
+        .projeto1,
+        .projeto2,
+        .projeto3,
+        .projeto4 {
+            width: 200px;
+            height: 200px;
+            border: 1px solid var(--escrito-escuro);
+            border-radius: 10px;
+            box-shadow: var(--button-shadow);
         }
     }
 }
