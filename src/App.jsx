@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import "./scss/index.scss";
 import Home from  "./components/sections/home";
 import Sobre from './components/sections/sobre';
@@ -10,13 +9,12 @@ import Footer from './components/footer';
 function App () {
   return (
      <div className="app-container">
-      <Navbar/>
-      
-      <Home/>
-      <Sobre/>
-      <Projetos/>
-      <Contato/>
-      <Footer/>
+      <Navbar />
+      <Home />
+      <Sobre />
+      <Projetos />
+      <Contato />
+      <Footer />
      </div>
   )
 };
