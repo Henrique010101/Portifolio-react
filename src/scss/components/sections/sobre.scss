@@ -6,7 +6,7 @@
 
     @media screen and (max-width: 850px) {
       flex-direction: column;
-      height: 120%;
+      height: 110%;
   }
   
     .contantText {
@@ -27,6 +27,7 @@
       display: flex;
       padding-left: 2%;
       margin-top: 3%;
+      margin-left: 7%;
       border-left: 1px solid #163020;
       width: 50%;
       height: 80%;
@@ -48,17 +49,17 @@
         display: flex;
         flex-wrap: wrap;
         margin-top: 3rem;
-        column-gap: 20px;
+        column-gap: 20%;
         
         @media screen and (max-width: 850px){
           flex-direction: row;
           min-width: 98%;
-          gap: 5px;
+          column-gap: 8%;
       }
 
         .imgContainer{
-          width: 73px;
-          height: 85px;
+          width: 100px;
+          height: 116px;
           background-color: rgba( 48, 77, 48, 0.3) ;
           border-radius: 14px;
           box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.25);
@@ -72,10 +73,27 @@
         @media screen and (max-width: 850px){
           width: 63px;
           height: 74px;
+          margin-top: 15%;
         }
         }
         .react {
-          margin-right: 3px;
+          margin-right: 4px;
+          width: 71px;
+          height: 66px;
+
+          @media screen and (max-width: 850px){
+            width: 50px;
+            height: 47px;
+          }
+        }
+        .img {
+          width: 50px;
+          height: 57px;
+
+          @media screen and (max-width: 850px){
+            width: 40px;
+            height: 47px;
+          }
         }
   
       }
