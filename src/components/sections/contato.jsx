@@ -7,7 +7,7 @@ import Whats from "../../assets/whatsapp.png";
 
 function Contato () {
   return (
-    <div className="Section4">Contato:
+    <div className="Section4" id="Section4">Contato:
       <div className="LinksCountainer">
         <div className="IconContainer">
           <img className="Icon" src={GitHub} alt="GitHub Icon" />

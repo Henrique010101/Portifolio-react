@@ -4,18 +4,22 @@
     background: var(--padrao-gradient);
     display: flex;
 
-    @media screen and (max-width: 850px) {
+    @media screen and (max-width: 853px) {
       flex-direction: column;
       height: 110%;
   }
   
     .contantText {
-      padding: 8% 0% 0% 8%;
+      padding: 10% 0% 0% 8%;
       width: 33rem;
       height: 7rem;
       font-size: 1.25rem;
       font-weight: 400;
-      @media screen and (max-width: 850px){
+
+      @media screen and (max-width: 1024px) {
+        width: 23rem;
+      }
+      @media screen and (max-width: 853px) {
         font-size: 1.1rem;
         width: 80vw;
         height: 12rem;
@@ -34,7 +38,7 @@
       font-size: 1.7rem;
       font-weight: 500;
 
-      @media screen and (max-width: 850px) {
+      @media screen and (max-width: 853px) {
         width: 80%;
         height: 100%;
         border-left: none;
@@ -51,7 +55,7 @@
         margin-top: 3rem;
         column-gap: 20%;
         
-        @media screen and (max-width: 850px){
+        @media screen and (max-width: 853px){
           flex-direction: row;
           min-width: 98%;
           column-gap: 8%;

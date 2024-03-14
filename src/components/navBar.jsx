@@ -1,28 +1,24 @@
-import React, { useState } from "react";
-import Bandeira from "../assets/bandeiraUK.png";
-import Home from "./sections/home";
-import Sobre from "./sections/sobre";
-import Projetos from "./sections/projetos";
-import Contato from "./sections/contato";
+import React from "react";
 
-const Navbar = () => {
-
+function Navbar() {
   return (
-    <header>
-    <nav className="ContainerBar">
-      <ul className="NavList">
-      <li><a className="NavAncora" href="/#">Home</a></li>
-      <li><a className="NavAncora" href="/#">Sobre mim</a></li>
-      <li><a className="NavAncora" href="/#">Projetos</a></li>
-      <li><a className="NavAncora" href="/#">Contato</a></li>
+    <nav className="nav">
+      <a href="#" className="nav_brand"></a>
+      <ul className="nav_menu">
+        <li className="nav_item"><a href="#Section1" className="nav_link">Home</a></li>
+        <li className="nav_item"><a href="#Section2" className="nav_link">Sobre</a></li>
+        <li className="nav_item"><a href="#Section3" className="nav_link">Projetos</a></li>
+        <li className="nav_item"><a href="#Section4" className="nav_link">Contato</a></li>
       </ul>
-      <div className="Bandeiras">
-      <img src={Bandeira} className="BRbandeira" />
-      <img className="UKbandeira" />
+      <div className="end_">
+      <div className="nav_toggler">
+      <div className="line1"></div>
+      <div className="line2"></div>
+      <div className="line3"></div>
+      </div>
       </div>
     </nav>
-    </header>
-  );
-};
+  )
+}
 
 export default Navbar;

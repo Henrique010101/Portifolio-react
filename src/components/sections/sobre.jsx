@@ -8,7 +8,7 @@ import ReactS from "../../assets/biblioteca.png"
 
 function sobre() {
   return (
-    <div className="section2">
+    <div className="section2" id="Section2">
     <div>
     <p className="contantText">Me chamo Henrique, tenho 20 anos, estou estudando a 1 ano, com foco em front-end, obtive conhecimentos sólidos em <strong>JavaScript</strong> e <strong>React</strong>.</p>
 

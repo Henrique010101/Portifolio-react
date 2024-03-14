@@ -5,7 +5,7 @@ import SetaContato from "../../assets/SetaContato.png";
 
 function Home ()  {
     return (
-        <div className="Section">
+        <div className="Section" id="Section1">
             <h1 className="titulo">
                 <strong>&lt;h1&gt;</strong> 
                   Olá mundo!
@@ -15,7 +15,7 @@ function Home ()  {
             </h1>
             <img src={FotoComFundo} alt="'-'" className="FotoComFundo"/>
             <img src={ImagemLegal} alt="Uma pessoa no computador." className="imagemLegal" />
-            <a smooth to="#Section4">
+            <a href="#Section4">
             <img src={SetaContato} alt="Botão para contato." className="SetaContato" />
             </a>
         </div>

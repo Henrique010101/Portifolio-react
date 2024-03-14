@@ -3,7 +3,7 @@ import Login from "../../assets/siteLogin.png"
 
 function projetos() {
   return (
-    <div className="section3">
+    <div className="section3" id="Section3">
       <div className="projetosContant"> C:\Users\Henrique\Projetos:</div>
       <div className="projetosGrid">
       <div className="projetosDiv">

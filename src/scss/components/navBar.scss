@@ -1,82 +1,75 @@
-header { 
+*,*::after, *::before {
+   margin: 0;
+
+   box-sizing: border-box;
+}
+
+.nav {
+    z-index: 9;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 4rem;
-    border-bottom: 1px solid var(--escrito-claro);
-    opacity: 1;
-    background: var(--padrao-gradient);
+    padding-left: 5%;
     display: flex;
     align-items: center;
-    position: fixed;
-    z-index: 10;
+    justify-content: start;
+    height: 8vh;
+    background: var(--padrao-gradient);
+    border-bottom: 1px solid var(--escrito-escuro);
 }
 
-.ContainerBar {
-    display: flex;
-    flex-shrink: 0;
-    justify-content: space-between;
-    margin-left: 20px;
+.nav_brand {
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-.NavList{
-    list-style: none;
+.nav_menu {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8vh;
     gap: 6rem;
+}
+
+li {
+    list-style: none;
+}
+
+.nav_link {
+    font-size: 1.6rem;
     color: var(--escrito-escuro);
-    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 500;
-
-    .NavAncora {
-        color: var(--escrito-escuro);
-        text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
-        font-size: 2rem;
-        font-style: normal;
-        font-weight: 500;
-        padding-block: 16px;
-        
-        &:hover{
-            opacity: 0.7;
-        }
-    }
 }
 
-.Bandeiras {
-    position: absolute;
-    right: 1rem;
-    top: 1rem;
-    transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-
-}
-
-.UKbandeira,
-.BRbandeira {
-    width: 2.5625rem;
-    height: 1.75rem;
-
-    &:hover{
-        opacity: 0.7;
-        transform: scale(1.1, 1.1);
+.nav_toggler {
+    div {
+        width: 2.6rem;
+        height: 0.25rem;
+        margin: 0.37rem;
+        background: var(--escrito-claro);
+        display: flex;
     }
-};
-
     
-// @media screen and (max-width: 750px){
-//     .hamburger{
-//         visibility: hidden;
-//     }
+    cursor: pointer;
+    // display: none;
 
-//     .NavList{
-//         position: fixed;
-//         top: 0;
-//         left: 0;
-//         width: 100vw;
-//         height: 100vh;
-//         background: var(--padrao-gradient);
+    @media screen and (max-width: 850px) {
 
-//         flex-direction: column;
-//         justify-content: center;
-//         align-items: center;
-//         gap: 4erm;
-//     }
-// }
+    }
+}
+
+.line1 {
+
+}
+
+.line2 {
+
+}
+
+.line3 {
+
+}
+.end_ {
+    
+}
+

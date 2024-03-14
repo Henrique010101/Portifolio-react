@@ -32,7 +32,7 @@
     }
 
     .titulo {
-        max-width: 430px;
+        max-width: 26.875rem;
         color: var(--escrito-claro);
         font-size: 2rem;
         font-style: normal;
@@ -44,18 +44,18 @@
         }
         @media screen and (max-width: 700px) {
             font-size: 1.6rem;
-            max-width: 350px;
+            max-width: 21.675rem;
         }
         @media screen and (max-width: 500px) {
             font-size: 1.5rem;
-            max-width: 330px;
+            max-width: 20.625rem;
         }
     };
     
     .imagemLegal {
-        border-radius: 200px;
-        width: 261px;
-        height: 210px;
+        border-radius: 12.5rem;
+        width: 16.313rem;
+        height: 13.125rem;
       
         @media screen and (max-width: 790px) {
             display: none;
@@ -63,8 +63,8 @@
     }
 
     .FotoComFundo {
-        width: 150px;
-        height: 150px;
+        width: 9.375rem;
+        height: 9.375rem;
         
         @media screen and (max-width: 1200px) {
             
@@ -76,17 +76,17 @@
             
         }
         @media screen and (max-width: 590px) {
-            width: 130px;
-            height: 130px;
+            width: 8.125rem;
+            height: 8.125rem;
         }
     }
     a {
-        height: 80px;
-        width: 240px;
+        height: 5rem;
+        width: 15rem;
 
         .SetaContato {
-            width: 240px;
-            height: 80px;
+            width: 15rem;
+            height: 5rem;
             margin-top: 44%;
             margin-left: 44%;
             cursor: pointer;
@@ -105,8 +105,8 @@
                 
             }
             @media screen and (max-width: 670px) {
-                width: 200px;
-                height: 70px;
+                width: 12.5rem;
+                height: 4.375rem;
                 margin: 0;
                 margin-left: 10%;
             }
