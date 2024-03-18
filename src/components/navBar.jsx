@@ -15,7 +15,10 @@ function Navbar() {
   };
   return (
     <nav className="nav">
-      <a href="#" className="nav_brand"></a>
+      <h1 href="#" className="nav_brand">
+          <strong>&lt;h1&gt;</strong> 
+          &nbsp; Olá mundo! &nbsp;
+          <strong>&lt;h1&gt;</strong></h1>
       <ul className={ active }>
         <li className="nav_item"><a href="#Section1" className="nav_link">Home</a></li>
         <li className="nav_item"><a href="#Section2" className="nav_link">Sobre</a></li>
