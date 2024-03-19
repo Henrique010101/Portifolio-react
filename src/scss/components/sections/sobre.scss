@@ -16,7 +16,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 45% ;
+      width: 50% ;
       padding-top: 4%;
 
       @media screen and (max-width: 853px) {
@@ -25,20 +25,23 @@
 
       .contantText {
         width: 80%;
-        font-size: 1.25rem;
-        font-weight: 400;
+        font-size: 1.4rem;
+
+        @media screen and (max-width: 1360px) {
+          font-size: 1.25rem;
+        }
 
         @media screen and (max-width: 1024px) {
-          max-width: 90%;
+          max-width: 95%;
         }
         @media screen and (max-width: 853px) {
           font-size: 1.1rem;
-          width: 90%;
+          width: 98%;
         }
       }
 
       .certificados {
-        margin-top: 8rem;
+        margin-top: 4rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -48,9 +51,9 @@
         border: var(--borda);
         box-shadow: var(--button-shadow);
         color: var(--escrito-escuro);
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 600;
         cursor: pointer;
         transition: var(--transicao-botao);
         background-color: rgba( 48, 77, 48, 0.3);
@@ -69,7 +72,7 @@
   
     .unify {
        
-       @media screen and (max-width: 320px) {
+       @media screen and (max-width: 400px) {
         overflow-y: auto;
        }
 

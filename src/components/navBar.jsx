@@ -20,10 +20,10 @@ function Navbar() {
           &nbsp; Olá mundo! &nbsp;
           <strong>&lt;h1&gt;</strong></h1>
       <ul className={ active }>
-        <li className="nav_item"><a href="#Section1" className="nav_link">Home</a></li>
-        <li className="nav_item"><a href="#Section2" className="nav_link">Sobre</a></li>
-        <li className="nav_item"><a href="#Section3" className="nav_link">Projetos</a></li>
-        <li className="nav_item"><a href="#Section4" className="nav_link">Contato</a></li>
+        <li className="nav_item"><a href="#Home" className="nav_link">Home</a></li>
+        <li className="nav_item"><a href="#Sobre" className="nav_link">Sobre & Skills</a></li>
+        <li className="nav_item"><a href="#Projetos" className="nav_link">Projetos</a></li>
+        <li className="nav_item"><a href="#Contato" className="nav_link">Contato</a></li>
       </ul>
       <div className="end_">
       <div onClick={ navToggle } className={toggleIcon}>
