@@ -31,18 +31,6 @@
         row-gap: 20%;
     }
     
-    @keyframes animacaoTexto {
-        0% {
-            transform: translateY(0);
-          }
-          50% {
-            transform: translateY(-10px);
-          }
-          100% {
-            transform: translateY(0);
-          }
-    }
-
     .animate {
         .titulo {
             max-width: 26.875rem;
