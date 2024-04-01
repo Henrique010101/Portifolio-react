@@ -11,26 +11,30 @@
     column-gap: 63%;
 
     @media screen and (max-width: 1670px) {
-        column-gap: 62%; 
+        column-gap: 62%;
         row-gap: 25%;
     }
+
     @media screen and (max-width: 1660px) {
-        column-gap: 45%; 
+        column-gap: 45%;
     }
+
     @media screen and (max-width: 1100px) {
         column-gap: 30%;
     }
+
     @media screen and (max-width: 960px) {
         row-gap: 15%;
         column-gap: 20%;
         padding: 10% 0% 4% 0%;
     }
+
     @media screen and (max-width: 670px) {
         flex-direction: column;
         padding: 6% 0% 0% 0%;
         row-gap: 20%;
     }
-    
+
     .animate {
         .titulo {
             max-width: 26.875rem;
@@ -40,14 +44,16 @@
             font-weight: 500;
             text-align: start;
             animation: animacaoTexto 2s initial;
-            
+
             @media screen and (max-width: 1100px) {
                 font-size: 1.8rem;
             }
+
             @media screen and (max-width: 700px) {
                 font-size: 1.6rem;
                 max-width: 21.675rem;
             }
+
             @media screen and (max-width: 500px) {
                 font-size: 1.5rem;
                 max-width: 20.625rem;
@@ -69,24 +75,25 @@
     .FotoComFundo {
         width: 11.375rem;
         height: 11.375rem;
-        
+
         @media screen and (max-width: 590px) {
             width: 9.125rem;
             height: 9.125rem;
         }
     }
+
     a {
         height: 6rem;
         width: 22rem;
 
         .FitaContato {
-            display: flex;   
+            display: flex;
             width: 22rem;
             height: 6rem;
             cursor: pointer;
             transition: var(--transicao-botao);
-            
-            &:hover{
+
+            &:hover {
                 transform: scale(1.02, 1.02);
             }
 
@@ -98,9 +105,12 @@
                 width: 15.5rem;
                 height: 4.375rem;
             }
+
             @media screen and (max-width: 350px) {
                 margin-left: 0rem;
             }
         }
     }
-};
+}
+
+;
