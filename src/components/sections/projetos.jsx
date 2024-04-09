@@ -1,7 +1,9 @@
 import React from "react"
 import Login from "../../assets/siteLogin.png"
-import Em_producao from "../../assets/Em_produção.png"
 import Dungeon_map from "../../assets/random_dungeon_map.png"
+import VieVi from "../../assets/Vi&Vi.png"
+import emContrucao from "../../assets/em-construcao.png"
+import tabuleiro from "../../assets/tabuleiro-de-xadrez.png"
 
 function projetos() {
   return (
@@ -10,7 +12,7 @@ function projetos() {
       <div className="projetosGrid">
         <div className="projetosDiv">
           <a target="_blank" rel="noopener noreferrer"><img className="projeto1" src={Dungeon_map} /></a>
-          <p className="descriçãoProjetos"><strong>React / Sass</strong>
+          <p className="descriçãoProjetos"><strong>React / Sass</strong><img className="emContrucao" alt="x" src={emContrucao} />
           </p>
           <p className="tituloProjeto">Mapa RPG</p>
         </div>
@@ -22,16 +24,16 @@ function projetos() {
 
         </div>
         <div className="projetosDiv">
-          <a target="_blank" rel="noopener noreferrer"><img className="projeto3" src={Em_producao} /></a>
-          <p className="descriçãoProjetos"><strong>Descrição do projeto</strong>
+          <a target="_blank" rel="noopener noreferrer"><img className="projeto3" src={VieVi} /></a>
+          <p className="descriçãoProjetos"><strong>React / Syled components</strong><img className="emContrucao" alt="x" src={emContrucao} />
           </p>
-          <p className="tituloProjeto">Nome do projeto</p>
+          <p className="tituloProjeto">Vi & Vi Odonto</p>
         </div>
         <div className="projetosDiv">
-          <a target="_blank" rel="noopener noreferrer"><img className="projeto4" src={Em_producao} /></a>
-          <p className="descriçãoProjetos"><strong>Descrição do projeto</strong>
+          <a target="_blank" rel="noopener noreferrer"><img className="projeto4" src={tabuleiro} /></a>
+          <p className="descriçãoProjetos"><strong>------------</strong>
           </p>
-          <p className="tituloProjeto">Nome do projeto</p>
+          <p className="tituloProjeto">-----------</p>
         </div>
       </div>
     </div>
