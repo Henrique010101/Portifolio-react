@@ -6,7 +6,7 @@ import Html from "../../assets/html.png"
 import JavaScript from "../../assets/javascript.png"
 import ReactS from "../../assets/biblioteca.png"
 import StyledComponents from "../../assets/styled-components.png"
-import Sass from "../../assets/Sass.png"
+import Sass from "../../assets/sass.png"
 
 function sobre() {
 
