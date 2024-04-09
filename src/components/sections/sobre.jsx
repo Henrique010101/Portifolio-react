@@ -15,7 +15,7 @@ function sobre() {
       <div className="container">
         <p className="contantText">Olá, sou Henrique, um desenvolvedor front-end de 20 anos. Com foco em <strong>React</strong>, busco constantemente aprimorar minhas habilidades através de cursos e projetos práticos.</p>
 
-        <p className="contantText">Fiz alguns cursos da <strong>Alura</strong> têm sido uma parte essencial da minha jornada, proporcionando conhecimento técnico, e também insights sobre as melhores práticas da indústria.</p>
+        <p className="contantText">Fiz alguns trabalhos como freelancer e cursos da <strong>Alura</strong> têm sido uma parte essencial da minha jornada, proporcionando conhecimento técnico, e também insights sobre as melhores práticas da indústria.</p>
         <a href="https://cursos.alura.com.br/user/henrique2003-com" target="_blank" rel="noopener noreferrer">
           <button className="certificados">Cursos concluídos<img /> </button></a>
       </div>
