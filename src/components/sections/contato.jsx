@@ -29,7 +29,7 @@ function Contato() {
       </div>
       <div className="Buttons">
         <a href="https://wa.me/5511953946555" target="_blank" rel="noopener noreferrer"><button className="Whats">Chamar no Whatsapp<img className="WhatsImg" src={Whats} /></button></a>
-        <a href="../../../public/Currículo_Henrique_2024.pdf" download="Currículo-HenriqueG"><button className="Curriculo">Download currículo</button></a>
+        <a href="/public/Currículo_Henrique_2024.pdf" download="Currículo-HenriqueG"><button className="Curriculo">Download currículo</button></a>
       </div>
     </div>
   );
