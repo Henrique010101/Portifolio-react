@@ -3,7 +3,7 @@ import Login from "../../assets/siteLogin.png"
 import Dungeon_map from "../../assets/random_dungeon_map.png"
 import VieVi from "../../assets/Vi&Vi.png"
 import emContrucao from "../../assets/em-construcao.png"
-import tabuleiro from "../../assets/tabuleiro-de-xadrez.png"
+import jogo_da_velha from "../../assets/Jogo_da_velha.png"
 
 function projetos() {
   return (
@@ -30,10 +30,10 @@ function projetos() {
           <p className="tituloProjeto">Vi & Vi Odonto</p>
         </div>
         <div className="projetosDiv">
-          <a target="_blank" rel="noopener noreferrer"><img className="projeto4" src={tabuleiro} /></a>
-          <p className="descriçãoProjetos"><strong>------------</strong>
+          <a href="https://jogo-da-velha-two-ruby.vercel.app/" target="_blank" rel="noopener noreferrer"><img className="projeto4" src={jogo_da_velha} /></a>
+          <p className="descriçãoProjetos"><strong>Html / Javascript / CSS</strong>
           </p>
-          <p className="tituloProjeto">-----------</p>
+          <p className="tituloProjeto">Jogo da velha</p>
         </div>
       </div>
     </div>
