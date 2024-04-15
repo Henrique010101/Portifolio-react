@@ -13,7 +13,7 @@ function sobre() {
   return (
     <div className="section2" id="Sobre">
       <div className="container">
-        <p className="contantText">Olá, sou Henrique, um desenvolvedor front-end de 20 anos. Com foco em <strong>React</strong>, busco constantemente aprimorar minhas habilidades através de cursos e projetos práticos.</p>
+        <p className="contantText">Olá, sou Henrique, um desenvolvedor web de 20 anos. Gosto de trabalhar com frameworks front-end e busco constantemente aprimorar minhas habilidades através de cursos e projetos práticos.</p>
 
         <p className="contantText">Fiz alguns trabalhos como freelancer e cursos da <strong>Alura</strong> têm sido uma parte essencial da minha jornada, proporcionando conhecimento técnico, e também insights sobre as melhores práticas da indústria.</p>
         <a href="https://cursos.alura.com.br/user/henrique2003-com" target="_blank" rel="noopener noreferrer">
