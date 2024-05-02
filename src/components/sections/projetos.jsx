@@ -25,7 +25,7 @@ function projetos() {
         </div>
         <div className="projetosDiv">
           <a target="_blank" rel="noopener noreferrer"><img className="projeto3" src={VieVi} /></a>
-          <p className="descriçãoProjetos"><strong>React / Syled components</strong><img className="emContrucao" alt="x" src={emContrucao} />
+          <p className="descriçãoProjetos"><strong>Bootstrap</strong><img className="emContrucao" alt="x" src={emContrucao} />
           </p>
           <p className="tituloProjeto">Vi & Vi Odonto</p>
         </div>
