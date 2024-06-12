@@ -21,8 +21,11 @@
     .projetosContant {
         font-size: 1.7rem;
         font-weight: 500;
-        margin-left: 6%;
-        margin-top: 2%;
+        margin: 2% 0% 0% 6%;
+
+        @media screen and (max-width: 780px) {
+            margin: 2% 0% 3% 6%;
+        }
 
         @media screen and (max-width: 600px) {
             font-size: 1.4rem;
@@ -50,7 +53,7 @@
         overflow-y: auto;
 
         @media screen and (max-width: 780px) {
-            gap: 0%;
+            gap: 3rem;
         }
 
         .projetosDiv {

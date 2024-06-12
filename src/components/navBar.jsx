@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import TypeIt from "typeit-react";
 
 function Navbar() {
   const [active, setActive] = useState("nav_menu");
@@ -11,14 +12,19 @@ function Navbar() {
 
     toggleIcon === "nav_toggler"
       ? setToggleIcon("nav_toggler toggle")
-      : setToggleIcon("nav_toggler");
+      : setToggleIcon("nav_toggler");  
   };
+
   return (
     <nav className="nav">
-      <h1 href="#" className="nav_brand">
+      <TypeIt options={{
+        strings: ["Olá, mundo!", "Bem-vindo ao meu site!", "Aproveite sua visita!"],
+        speed: 160,
+      }}
+       href="#" className="nav_brand">
         <strong>&lt;h1&gt;</strong>
         &nbsp; Olá mundo! &nbsp;
-        <strong>&lt;h1&gt;</strong></h1>
+        <strong>&lt;h1&gt;</strong></TypeIt>
       <ul className={active}>
         <li className="nav_item"><a href="#Home" className="nav_link">Home</a></li>
         <li className="nav_item"><a href="#Sobre" className="nav_link">Sobre</a></li>

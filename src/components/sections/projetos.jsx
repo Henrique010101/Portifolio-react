@@ -5,7 +5,9 @@ import VieVi from "../../assets/Vi&Vi.png"
 import emContrucao from "../../assets/em-construcao.png"
 import jogo_da_velha from "../../assets/Jogo_da_velha.png"
 
+
 function projetos() {
+  
   return (
     <div className="section3" id="Projetos">
       <div className="projetosContant"> C:\Users\Henrique\Projetos:</div>
