@@ -18,8 +18,11 @@ function Navbar() {
   return (
     <nav className="nav">
       <TypeIt options={{
-        strings: ["Olá, mundo!", "Bem-vindo ao meu site!", "Aproveite sua visita!"],
-        speed: 160,
+        strings: ["Olá, mundo!"],
+        speed: 120,
+        deleteSpeed: 100,
+        loop: true,
+        loopDelay: [1000, 10000]
       }}
        href="#" className="nav_brand">
         <strong>&lt;h1&gt;</strong>

@@ -57,6 +57,11 @@
             font-size: 1.5rem;
             max-width: 20.625rem;
         }
+
+        @media screen and (max-width: 350px) {
+            max-width: 18.025rem;
+            font-size: 1.3rem;
+        }
     }
 
 
@@ -87,8 +92,8 @@
 
         .FitaContato {
             display: flex;
-            width: 22rem;
-            height: 6rem;
+            width: 100%;
+            height: 100%;
             cursor: pointer;
             transition: var(--transicao-botao);
 
@@ -96,20 +101,15 @@
                 transform: scale(1.02, 1.02);
             }
 
-            @media screen and (max-width: 853px) {
-                margin-left: 3rem;
-            }
-
             @media screen and (max-width: 670px) {
-                width: 15.5rem;
-                height: 4.375rem;
-            }
-
-            @media screen and (max-width: 350px) {
-                margin-left: 0rem;
+                width: 100%;
+                height: 100%;
             }
         }
-    }
-}
 
-;
+        @media screen and (max-width: 450px) {
+                height: 5rem;
+                width: 18rem;
+        }
+    }
+};

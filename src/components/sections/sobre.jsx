@@ -20,8 +20,9 @@ function sobre() {
         <a href="https://cursos.alura.com.br/user/henrique2003-com" target="_blank" rel="noopener noreferrer">
           <button className="certificados">Cursos concluídos<img /> </button></a>
       </div>
+      <p className="phabilidade2">Habilidades:</p>
       <div className="unify">
-        <p className="phabilidade">Habilidades:</p>
+      <p className="phabilidade">Habilidades:</p>
         <div className="contantSkils">
           <div className="skills">
             <a href="https://cursos.alura.com.br/user/henrique2003-com/fullCertificate/0b63c6cc293bd4c564219683e36de01f" target="_blank" rel="noopener noreferrer"><button className="imgContainer" title="Git">
