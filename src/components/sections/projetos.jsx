@@ -1,43 +1,137 @@
 import React from "react"
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
+
+import imagemGrindzone from "../../assets/imagem-grindzone.png"
 import Login from "../../assets/siteLogin.png"
-import Dungeon_map from "../../assets/random_dungeon_map.png"
+import Focus from "../../assets/imagem-focus.png"
 import VieVi from "../../assets/Vi&Vi.png"
 import emContrucao from "../../assets/em-construcao.png"
 import jogo_da_velha from "../../assets/Jogo_da_velha.png"
 
 
+
 function projetos() {
-  
+
   return (
-    <div className="section3" id="Projetos">
-      <div className="projetosContant"> C:\Users\Henrique\Projetos:</div>
-      <div className="projetosGrid">
-        <div className="projetosDiv">
-          <a target="_blank" rel="noopener noreferrer"><img className="projeto1" src={Dungeon_map} /></a>
-          <p className="descriçãoProjetos"><strong>React / Sass</strong><img className="emContrucao" alt="x" src={emContrucao} />
-          </p>
-          <p className="tituloProjeto">Mapa RPG</p>
-        </div>
-        <div className="projetosDiv">
-          <a href="https://login-react-sand.vercel.app/" target="_blank" rel="noopener noreferrer"><img className="projeto2" src={Login} alt="Projeto2" /></a>
+    <div className="containerProject" id="Projetos">
+      <h1 className="heading">C:\Users\Henrique\Projetos:</h1>
+      <Swiper
+        effect={'coverflow'}
+        grabCursor={true}
+        centeredSlides={true}
+        loop={true}
+        slidesPerView={'auto'}
+        coverflowEffect={{
+          rotate: 5,
+          stretch: 0,
+          depth: 110,
+          modifier: 2,
+          slideShadows: false,
+          breakpoints: {
+            // when window width is >= 320px
+            500: {
+              stretch: 100,
+              modifier: 5,
+            },
+            // when window width is >= 480px
+            480: {
 
-          <p className="descriçãoProjetos"><strong>React / Styled components</strong></p>
-          <p className="tituloProjeto">Sistema de login</p>
+            },
+            // when window width is >= 640px
+            640: {
 
+            }
+          }
+        }}
+
+        pagination={{ el: '.swiper-pagination', clickable: true }}
+        navigation={{
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+          clickable: true,
+        }}
+        modules={[EffectCoverflow, Pagination, Navigation]}
+        className="swiper_container"
+      >
+        <SwiperSlide>
+          <div className="card">
+            <a href="" target="_blank">
+              <img className="building" src={emContrucao} alt="build image" />
+              <img className="img-card" src={VieVi} alt="slide_image" />
+            </a>
+            <div className="text-card">
+              <h2 className="titulo"><strong>Vi&Vi Odonto</strong></h2>
+              <h2 className="tecnologias">Bootstrap</h2>
+              <p className="descricao">Este site foi feito apenas com Bootstrap. um projeto pessoal (por enquanto) para meu amigo futuro Doutor, e minha amiga Doutora.</p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="card">
+            <a href="https://login-react-sand.vercel.app/" target="_blank">
+              <img className="img-card" src={Login} alt="slide_image" />
+            </a>
+            <div className="text-card">
+              <h2 className="titulo"><strong>Login</strong></h2>
+              <h2 className="tecnologias">React & Syled Components</h2>
+              <p className="descricao">Este sistema de login foi feito com banco de dados local, desenvolvi quando estava aprendendo a usar Styled Components.</p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="card">
+            <a href="https://grinzone.vercel.app/" target="_blank">
+              <img className="building" src={emContrucao} alt="build image" />
+              <img className="img-card" src={imagemGrindzone} alt="slide_image" />
+            </a>
+            <div className="text-card">
+              <h2 className="titulo"><strong>GrindZone</strong></h2>
+              <h2 className="tecnologias">Bootstrap | MongoDB</h2>
+              <p className="descricao">Eu estou usando tudo que aprendi até o momento neste site. diversas funcionalidades no back-end, com banco de dados SQL ( MongoDB ).</p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="card">
+            <a href="https://focus-steel-seven.vercel.app/" target="_blank">
+              <img className="img-card" src={Focus} alt="slide_image" />
+            </a>
+            <div className="text-card">
+              <h2 className="titulo"><strong>Focus</strong></h2>
+              <h2 className="tecnologias">Javascript</h2>
+              <p className="descricao">Fiz este projeto para praticar manipulação de DOM entre outros métodos js.</p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="card">
+            <a href="https://jogo-da-velha-two-ruby.vercel.app/" target="_blank">
+              <img className="img-card" src={jogo_da_velha} alt="slide_image" />
+            </a>
+            <div className="text-card">
+              <h2 className="titulo"><strong>Jogo da velha</strong></h2>
+              <h2 className="tecnologias">Javascript</h2>
+              <p className="descricao">Fiz este jogo para melhorar minha sintaxe javascript.</p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <div className="slider-controler">
+          <div className="swiper-button-prev slider-arrow">
+            <ion-icon name="arrow-back-outline"></ion-icon>
+          </div>
+          <div className="swiper-button-next slider-arrow">
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </div>
+          <div className="swiper-pagination"></div>
         </div>
-        <div className="projetosDiv">
-          <a target="_blank" rel="noopener noreferrer"><img className="projeto3" src={VieVi} /></a>
-          <p className="descriçãoProjetos"><strong>Bootstrap</strong><img className="emContrucao" alt="x" src={emContrucao} />
-          </p>
-          <p className="tituloProjeto">Vi & Vi Odonto</p>
-        </div>
-        <div className="projetosDiv">
-          <a href="https://jogo-da-velha-two-ruby.vercel.app/" target="_blank" rel="noopener noreferrer"><img className="projeto4" src={jogo_da_velha} /></a>
-          <p className="descriçãoProjetos"><strong>Html / Javascript / CSS</strong>
-          </p>
-          <p className="tituloProjeto">Jogo da velha</p>
-        </div>
-      </div>
+      </Swiper>
     </div>
   )
 }

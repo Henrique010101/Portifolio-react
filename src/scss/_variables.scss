@@ -1,0 +1,27 @@
+:root {
+    --padrao-gradient: linear-gradient(96deg, #A7B5A7 2.05%, #D9CDAE 100%);
+    --fundo-padrao: #EEF0E5;
+    --escrito-claro: #163020;
+    --escrito-escuro: #0C1B11;
+    --button-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    --borda: 1px solid #FFFF;
+    --transicao-botao: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+;
+
+$breakpoints: (
+    'minimum-small': 390px,
+    'small': 500px,
+    'medium': 768px,
+    'medium-large': 1024px,
+    'large': 1300px,
+    'ultra-large': 1550px,
+);
+
+@mixin respond-to($breakpoint) {
+    @debug map-get($breakpoints, $breakpoint);
+    @media (min-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+    }
+}
