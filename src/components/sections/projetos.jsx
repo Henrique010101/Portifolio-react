@@ -94,7 +94,7 @@ function projetos() {
             <div className="text-card">
               <h2 className="titulo"><strong>GrindZone</strong></h2>
               <h2 className="tecnologias">Bootstrap | MongoDB</h2>
-              <p className="descricao">Eu estou usando tudo que aprendi até o momento neste site. diversas funcionalidades no back-end, com banco de dados SQL ( MongoDB ).</p>
+              <p className="descricao">Eu estou usando tudo que aprendi até o momento neste site. diversas funcionalidades no back-end, com banco de dados NoSQL ( MongoDB ).</p>
             </div>
           </div>
         </SwiperSlide>
