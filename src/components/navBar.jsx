@@ -12,7 +12,7 @@ function Navbar() {
 
     toggleIcon === "nav_toggler"
       ? setToggleIcon("nav_toggler toggle")
-      : setToggleIcon("nav_toggler");  
+      : setToggleIcon("nav_toggler");
   };
 
   return (
@@ -24,7 +24,7 @@ function Navbar() {
         loop: true,
         loopDelay: [1000, 10000]
       }}
-       href="#" className="nav_brand">
+        href="#" className="nav_brand">
         <strong>&lt;h1&gt;</strong>
         &nbsp; Olá mundo! &nbsp;
         <strong>&lt;h1&gt;</strong></TypeIt>

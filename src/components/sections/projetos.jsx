@@ -34,23 +34,7 @@ function projetos() {
           depth: 110,
           modifier: 2,
           slideShadows: false,
-          breakpoints: {
-            // when window width is >= 320px
-            500: {
-              stretch: 100,
-              modifier: 5,
-            },
-            // when window width is >= 480px
-            480: {
-
-            },
-            // when window width is >= 640px
-            640: {
-
-            }
-          }
         }}
-
         pagination={{ el: '.swiper-pagination', clickable: true }}
         navigation={{
           nextEl: '.swiper-button-next',
@@ -80,7 +64,7 @@ function projetos() {
             </a>
             <div className="text-card">
               <h2 className="titulo"><strong>Login</strong></h2>
-              <h2 className="tecnologias">React & Syled Components</h2>
+              <h2 className="tecnologias">React | Syled Components</h2>
               <p className="descricao">Este sistema de login foi feito com banco de dados local, desenvolvi quando estava aprendendo a usar Styled Components.</p>
             </div>
           </div>

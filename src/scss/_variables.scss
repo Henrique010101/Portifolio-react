@@ -21,6 +21,7 @@ $breakpoints: (
 
 @mixin respond-to($breakpoint) {
     @debug map-get($breakpoints, $breakpoint);
+
     @media (min-width: map-get($breakpoints, $breakpoint)) {
         @content;
     }
