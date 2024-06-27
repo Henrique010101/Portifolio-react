@@ -46,31 +46,6 @@ function projetos() {
       >
         <SwiperSlide>
           <div className="card">
-            <a href="" target="_blank">
-              <img className="building" src={emContrucao} alt="build image" />
-              <img className="img-card" src={VieVi} alt="slide_image" />
-            </a>
-            <div className="text-card">
-              <h2 className="titulo"><strong>Vi&Vi Odonto</strong></h2>
-              <h2 className="tecnologias">Bootstrap</h2>
-              <p className="descricao">Este site foi feito apenas com Bootstrap. um projeto pessoal (por enquanto) para meu amigo futuro Doutor, e minha amiga Doutora.</p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="card">
-            <a href="https://login-react-sand.vercel.app/" target="_blank">
-              <img className="img-card" src={Login} alt="slide_image" />
-            </a>
-            <div className="text-card">
-              <h2 className="titulo"><strong>Login</strong></h2>
-              <h2 className="tecnologias">React | Syled Components</h2>
-              <p className="descricao">Este sistema de login foi feito com banco de dados local, desenvolvi quando estava aprendendo a usar Styled Components.</p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="card">
             <a href="https://grinzone.vercel.app/" target="_blank">
               <img className="building" src={emContrucao} alt="build image" />
               <img className="img-card" src={imagemGrindzone} alt="slide_image" />
@@ -103,6 +78,31 @@ function projetos() {
               <h2 className="titulo"><strong>Jogo da velha</strong></h2>
               <h2 className="tecnologias">Javascript</h2>
               <p className="descricao">Fiz este jogo para melhorar minha sintaxe javascript.</p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="card">
+            <a href="" target="_blank">
+              <img className="building" src={emContrucao} alt="build image" />
+              <img className="img-card" src={VieVi} alt="slide_image" />
+            </a>
+            <div className="text-card">
+              <h2 className="titulo"><strong>Vi&Vi Odonto</strong></h2>
+              <h2 className="tecnologias">Bootstrap</h2>
+              <p className="descricao">Este site foi feito apenas com Bootstrap. um projeto pessoal (por enquanto) para meu amigo futuro Doutor, e minha amiga Doutora.</p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="card">
+            <a href="https://login-react-sand.vercel.app/" target="_blank">
+              <img className="img-card" src={Login} alt="slide_image" />
+            </a>
+            <div className="text-card">
+              <h2 className="titulo"><strong>Login</strong></h2>
+              <h2 className="tecnologias">React | Syled Components</h2>
+              <p className="descricao">Este sistema de login foi feito com banco de dados local, desenvolvi quando estava aprendendo a usar Styled Components.</p>
             </div>
           </div>
         </SwiperSlide>
