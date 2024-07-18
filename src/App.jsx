@@ -5,12 +5,12 @@ import Navbar from './components/navBar';
 import Projetos from './components/sections/projetos';
 import Contato from './components/sections/contato';
 import Footer from './components/footer';
-import Scroll from './components/scrollToTop';
+// import Scroll from './components/scrollToTop';
 
 function App() {
   return (
     <div className="app-container">
-      <Scroll />
+      {/* <Scroll /> */}
       <Navbar />
       <Home />
       <Sobre />
@@ -19,6 +19,6 @@ function App() {
       <Footer />
     </div>
   )
-};
+}
 
 export default App;

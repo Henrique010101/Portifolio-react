@@ -1,4 +1,3 @@
-import { React } from "react";
 import ImagemLegal from "../../assets/imagemLegal.png";
 import FotoComFundo from "../../assets/FotoComFundo.png";
 import FitaContato from "../../assets/fita_contato.png";
@@ -18,6 +17,6 @@ function Home() {
         </div>
 
     );
-};
+}
 
 export default Home;

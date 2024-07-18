@@ -1,4 +1,3 @@
-import React from "react"
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
@@ -14,8 +13,6 @@ import Focus from "../../assets/imagem-focus.png"
 import VieVi from "../../assets/Vi&Vi.png"
 import emContrucao from "../../assets/em-construcao.png"
 import jogo_da_velha from "../../assets/Jogo_da_velha.png"
-
-
 
 function projetos() {
 
@@ -46,7 +43,7 @@ function projetos() {
       >
         <SwiperSlide>
           <div className="card">
-            <a href="https://grinzone.vercel.app/" target="_blank">
+            <a href="https://grinzone.vercel.app/" rel="noreferrer" target="_blank">
               <img className="building" src={emContrucao} alt="build image" />
               <img className="img-card" src={imagemGrindzone} alt="slide_image" />
             </a>
@@ -59,7 +56,7 @@ function projetos() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="card">
-            <a href="https://focus-steel-seven.vercel.app/" target="_blank">
+            <a href="https://focus-steel-seven.vercel.app/" rel="noreferrer" target="_blank">
               <img className="img-card" src={Focus} alt="slide_image" />
             </a>
             <div className="text-card">
@@ -71,7 +68,7 @@ function projetos() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="card">
-            <a href="https://jogo-da-velha-two-ruby.vercel.app/" target="_blank">
+            <a href="https://jogo-da-velha-two-ruby.vercel.app/" rel="noreferrer" target="_blank">
               <img className="img-card" src={jogo_da_velha} alt="slide_image" />
             </a>
             <div className="text-card">
@@ -96,7 +93,7 @@ function projetos() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="card">
-            <a href="https://login-react-sand.vercel.app/" target="_blank">
+            <a href="https://login-react-sand.vercel.app/" rel="noreferrer" target="_blank">
               <img className="img-card" src={Login} alt="slide_image" />
             </a>
             <div className="text-card">
