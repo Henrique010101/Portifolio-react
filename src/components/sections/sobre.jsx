@@ -7,7 +7,7 @@ import ReactS from "../../assets/biblioteca.png"
 import StyledComponents from "../../assets/styled-components.png"
 import Sass from "../../assets/sass.png"
 import Bootstrap from "../../assets/bootstrap.png"
-import Typescript from '../../assets/typescript-logo.png'
+import Typescript from '../../assets/Typescript-logo.png'
 
 function sobre() {
 
