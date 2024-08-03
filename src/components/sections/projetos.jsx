@@ -13,6 +13,7 @@ import Focus from "../../assets/imagem-focus.png"
 import VieVi from "../../assets/Vi&Vi.png"
 import emContrucao from "../../assets/em-construcao.png"
 import jogo_da_velha from "../../assets/Jogo_da_velha.png"
+import negociacoes from "../../assets/imagem-negociacoes-ts.png";
 
 function projetos() {
 
@@ -45,19 +46,19 @@ function projetos() {
           <div className="card">
             <a href="https://grinzone.vercel.app/" rel="noreferrer" target="_blank">
               <img className="building" src={emContrucao} alt="build image" />
-              <img className="img-card" src={imagemGrindzone} alt="slide_image" />
+              <img className="img-card" src={imagemGrindzone} alt="Imagem do site GrindZone" />
             </a>
             <div className="text-card">
               <h2 className="titulo"><strong>GrindZone</strong></h2>
               <h2 className="tecnologias">Bootstrap | MongoDB</h2>
-              <p className="descricao">Eu estou usando tudo que aprendi até o momento neste site. diversas funcionalidades no back-end, com banco de dados NoSQL ( MongoDB ).</p>
+              <p className="descricao">Diversas funcionalidades no back-end, com banco de dados NoSQL ( MongoDB ).</p>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="card">
             <a href="https://focus-steel-seven.vercel.app/" rel="noreferrer" target="_blank">
-              <img className="img-card" src={Focus} alt="slide_image" />
+              <img className="img-card" src={Focus} alt="Imagem do site Focus" />
             </a>
             <div className="text-card">
               <h2 className="titulo"><strong>Focus</strong></h2>
@@ -69,7 +70,7 @@ function projetos() {
         <SwiperSlide>
           <div className="card">
             <a href="https://jogo-da-velha-two-ruby.vercel.app/" rel="noreferrer" target="_blank">
-              <img className="img-card" src={jogo_da_velha} alt="slide_image" />
+              <img className="img-card" src={jogo_da_velha} alt="Imagem do site Jogo da velha" />
             </a>
             <div className="text-card">
               <h2 className="titulo"><strong>Jogo da velha</strong></h2>
@@ -82,7 +83,7 @@ function projetos() {
           <div className="card">
             <a href="" target="_blank">
               <img className="building" src={emContrucao} alt="build image" />
-              <img className="img-card" src={VieVi} alt="slide_image" />
+              <img className="img-card" src={VieVi} alt="Imagem do site Vi e Vi" />
             </a>
             <div className="text-card">
               <h2 className="titulo"><strong>Vi&Vi Odonto</strong></h2>
@@ -94,12 +95,24 @@ function projetos() {
         <SwiperSlide>
           <div className="card">
             <a href="https://login-react-sand.vercel.app/" rel="noreferrer" target="_blank">
-              <img className="img-card" src={Login} alt="slide_image" />
+              <img className="img-card" src={Login} alt="Imagem do site Login" />
             </a>
             <div className="text-card">
               <h2 className="titulo"><strong>Login</strong></h2>
               <h2 className="tecnologias">React | Syled Components</h2>
               <p className="descricao">Este sistema de login foi feito com banco de dados local, desenvolvi quando estava aprendendo a usar Styled Components.</p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="card">
+            <a href="https://negociacoes-five.vercel.app/" rel="noreferrer" target="_blank">
+              <img className="img-card" src={negociacoes} alt="Imagem do site Negociações typescript" />
+            </a>
+            <div className="text-card">
+              <h2 className="titulo"><strong>Negociações TS</strong></h2>
+              <h2 className="tecnologias">Typescript | Bootstrap</h2>
+              <p className="descricao">Sistema de negociações em TS, usando práticas atuais da indústria e consumindo dados de um servidor simples com node.js e express.</p>
             </div>
           </div>
         </SwiperSlide>
