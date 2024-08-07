@@ -1,6 +1,7 @@
 import "./scss/index.scss";
 import Home from "./components/sections/home";
 import Sobre from './components/sections/sobre';
+import Skills from "./components/sections/skills";
 import Navbar from './components/navBar';
 import Projetos from './components/sections/projetos';
 import Contato from './components/sections/contato';
@@ -15,6 +16,7 @@ function App() {
       <Home />
       <Sobre />
       <Projetos />
+      <Skills />
       <Contato />
       <Footer />
     </div>

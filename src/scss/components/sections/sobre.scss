@@ -1,224 +1,110 @@
 .section2 {
-  width: 100vw;
-  height: 100%;
-  background: var(--padrao-gradient);
-  display: flex;
-
-  @media screen and (max-width: 853px) {
-    flex-direction: column;
-    height: 110%;
-  }
-
-  @media screen and (max-width: 400px) {
-    height: 115%;
-  }
-
-  .container {
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
-    padding-top: 4%;
+    justify-content: center;
+    background: var(--padrao-gradient);
 
     @media screen and (max-width: 853px) {
-      width: 90%;
+        justify-content: start;
     }
 
-    .contantText {
-      width: 80%;
-      font-size: 1.4rem;
+    .tituloSobre {
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: var(--escrito-escuro);
+        padding: 1rem;
+        
+        @media screen and (max-width: 1024px) {
+            font-size: 2rem;
+        }
 
-      @media screen and (max-width: 1360px) {
-        font-size: 1.25rem;
-      }
+        @media screen and (max-width: 500px) {
+            font-size: 1.6rem;
+            width: 100%;
+            font-weight: 500;
+            padding: 4% 0% 4% 8%; 
+        }
+    }
 
-      @media screen and (max-width: 1024px) {
-        max-width: 95%;
-      }
+    .textosSobre {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 30%;
+        gap: 8%;
 
-      @media screen and (max-width: 853px) {
-        font-size: 1.1rem;
-        width: 98%;
-        padding-left: 5%;
-      }
+        @media screen and (max-width: 1024px) {
+            height: 53%;
+        }
+
+        @media screen and (max-width: 853px) {
+            height: 100%;
+            justify-content: start;
+            align-items: start;
+            gap: 5%;
+        }
+
+        .contantText {
+            width: 30%;
+            font-size: 1.4rem;
+
+            @media screen and (max-width: 1360px) {
+                font-size: 1.25rem;
+                width: 40%;
+            }
+
+            @media screen and (max-width: 1024px) {
+                width: 60%;
+                font-size: 1.6rem;
+            }
+
+            @media screen and (max-width: 853px) {
+                
+                width: 98%;
+                padding-left: 5%;
+            }
+            @media screen and (max-width: 500px) {
+                font-size: 1.1rem;
+            }
+        }
     }
 
     .certificados {
-      margin: 4rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 21rem;
-      height: 4rem;
-      border-radius: 1.9rem;
-      border: var(--borda);
-      box-shadow: var(--button-shadow);
-      color: var(--escrito-escuro);
-      font-size: 1.5rem;
-      font-style: normal;
-      font-weight: 600;
-      cursor: pointer;
-      transition: var(--transicao-botao);
-      background-color: rgba(48, 77, 48, 0.3);
-
-      &:hover {
-        transform: scale(1.1, 1.1);
-      }
-
-      @media screen and (max-width: 853px) {
-        margin: 4rem 2rem 4rem 3rem;
-        width: 16rem;
-        height: 4rem;
-        font-size: 1.3rem;
-      }
-
-      @media screen and (max-width: 500px) {
-        width: 15rem;
-        height: 3.6rem;
-      }
-
-    }
-  }
-
-  .phabilidade2 {
-    display: none;
-    font-size: 1.6rem;
-    font-weight: 500;
-    padding: 2% 0% 1% 4%;
-
-    @media screen and (max-width: 853px) {
-      display: flex;
-      border-bottom: 1px solid #163020;
-      margin: 0 7% 0 7%;
-    }
-  }
-
-  .unify {
-    height: 100%;
-    overflow: scroll;
-
-    .phabilidade {
-      display: flex;
-      font-size: 1.6rem;
-      font-weight: 500;
-      padding: 2% 0% 1% 4%;
-
-      @media screen and (max-width: 853px) {
-        display: none;
-        height: 100%;
-      }
-    }
-
-    .contantSkils {
-      display: flex;
-      border-left: 1px solid #163020;
-      width: 90%;
-      height: 80%;
-      font-size: 1.7rem;
-      font-weight: 500;
-      padding-left: 30%;
-
-      @media screen and (max-width: 853px) {
-        width: 80%;
-        border-left: none;
-        margin-left: 9%;
-        padding-left: 0%;
-        display: block;
-      }
-
-      .skills {
+        margin: 4rem;
         display: flex;
-        flex-wrap: wrap;
-        margin-top: 3rem;
-        gap: 15%;
         align-items: center;
         justify-content: center;
+        width: 21rem;
+        height: 4rem;
+        border-radius: 1.9rem;
+        border: var(--borda);
+        box-shadow: var(--button-shadow);
+        color: var(--escrito-escuro);
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        cursor: pointer;
+        transition: var(--transicao-botao);
+        background-color: rgba(48, 77, 48, 0.3);
+
+        &:hover {
+            transform: scale(1.1, 1.1);
+        }
 
         @media screen and (max-width: 853px) {
-          flex-direction: row;
-          min-width: 98%;
-          gap: 10%;
+            margin: 4rem 2rem 4rem 3rem;
+            width: 16rem;
+            height: 4rem;
+            font-size: 1.3rem;
         }
 
-        @media screen and (max-width: 400px) {
-          gap: 15%;
+        @media screen and (max-width: 500px) {
+            width: 15rem;
+            height: 3.6rem;
         }
 
-        .imgContainer {
-          width: 110px;
-          height: 126px;
-          background-color: rgba(48, 77, 48, 0.3);
-          border-radius: 14px;
-          box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.25);
-          transition: var(--transicao-botao);
-
-          &:hover {
-            transform: scale(1.1, 1.1);
-            background-color: rgba(48, 77, 48, 0.4);
-          }
-
-          @media screen and (max-width: 850px) {
-            width: 83px;
-            height: 94px;
-            margin-top: 15%;
-          }
-        }
-
-        .react {
-          margin-right: 4px;
-          width: 71px;
-          height: 66px;
-
-          @media screen and (max-width: 850px) {
-            width: 50px;
-            height: 47px;
-          }
-        }
-
-        .bootstrap {
-          width: 57px;
-          height: 46px;
-
-          @media screen and (max-width: 850px) {
-            width: 47px;
-            height: 39px;
-          }
-        }
-
-        .img {
-          width: 50px;
-          height: 57px;
-
-          @media screen and (max-width: 850px) {
-            width: 40px;
-            height: 47px;
-          }
-        }
-
-        .imgHz {
-          width: 60px;
-          height: 50px;
-          opacity: 0.7;
-
-          @media screen and (max-width: 850px) {
-            width: 50px;
-            height: 40px;
-          }
-        }
-
-        .textSkills {
-          font-size: 1rem;
-          font-weight: 700;
-          color: var(--escrito-escuro);
-          text-overflow: ellipsis;
-          white-space: nowrap;
-          overflow: hidden;
-
-          @media screen and (max-width: 850px) {
-            font-size: 0.8rem;
-          }
-        }
-      }
     }
-  }
 }

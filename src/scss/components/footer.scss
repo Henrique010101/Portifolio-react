@@ -1,14 +1,14 @@
 .Footer {
     width: 100vw;
-    height: 1.5rem;
-    background: var(--padrao-gradient);
+    height: 2rem;
+    background: var(--fundo-padrao);
     color: #0C1B11;
     font-size: 1.1rem;
     font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 20px;
+    padding: 1rem 0 3rem 0;
 
     @media screen and (max-width: 500px) {
         font-size: 0.8rem;
@@ -18,5 +18,11 @@
         width: 1rem;
         height: 1rem;
         margin: 0 5px 0 5px;
+
+        @media screen and (max-width: 500px) {
+            width: 0.8rem;
+            height: 0.8rem;
+            margin: 0 3px 0 2px;
+        }
     }
 }

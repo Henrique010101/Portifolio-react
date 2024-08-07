@@ -1,5 +1,4 @@
-import copyright from "../assets/simbolo-de-copyright.png"
-import React from 'react'
+import copyright from "../assets/simbolo-de-copyright.png";
 
 function footer() {
   return (

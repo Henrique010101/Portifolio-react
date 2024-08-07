@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import TypeIt from "typeit-react";
 
 function Navbar() {
@@ -31,6 +31,7 @@ function Navbar() {
       <ul className={active}>
         <li className="nav_item"><a href="#Home" className="nav_link">Home</a></li>
         <li className="nav_item"><a href="#Sobre" className="nav_link">Sobre</a></li>
+        <li className="nav_item"><a href="#Skills" className="nav_link">Skills</a></li>
         <li className="nav_item"><a href="#Projetos" className="nav_link">Projetos</a></li>
         <li className="nav_item"><a href="#Contato" className="nav_link">Contato</a></li>
       </ul>
