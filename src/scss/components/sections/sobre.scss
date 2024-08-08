@@ -14,7 +14,7 @@
         font-size: 1.8rem;
         font-weight: 500;
         color: var(--escrito-escuro);
-        padding: 1rem;
+        padding: 2rem;
         
         @media screen and (max-width: 1024px) {
             font-size: 2rem;
@@ -48,7 +48,7 @@
         }
 
         .contantText {
-            width: 30%;
+            width: 35%;
             font-size: 1.4rem;
 
             @media screen and (max-width: 1360px) {
@@ -73,7 +73,7 @@
     }
 
     .certificados {
-        margin: 4rem;
+        margin: 4rem 4rem 4rem 4rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -95,7 +95,7 @@
         }
 
         @media screen and (max-width: 853px) {
-            margin: 4rem 2rem 4rem 3rem;
+            margin: 3rem;
             width: 16rem;
             height: 4rem;
             font-size: 1.3rem;

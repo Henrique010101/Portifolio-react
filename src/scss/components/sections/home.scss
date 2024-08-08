@@ -7,8 +7,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    row-gap: 55%;
-    column-gap: 63%;
+    row-gap: 50%;
+    column-gap: 60%;
 
     @media screen and (max-width: 1670px) {
         column-gap: 62%;
@@ -35,6 +35,9 @@
         row-gap: 20%;
     }
 
+    @media screen and (max-width: 389px) {
+        row-gap: 15%;
+    }
 
     .titulo {
         max-width: 26.875rem;
@@ -64,25 +67,13 @@
         }
     }
 
-
-    .imagemLegal {
-        border-radius: 12.5rem;
-        width: 16.313rem;
-        height: 13.125rem;
-        display: none;
-
-        @media screen and (max-width: 790px) {
-            display: none;
-        }
-    }
-
     .FotoComFundo {
-        width: 11.375rem;
-        height: 11.375rem;
+        width: 12.375rem;
+        height: 12.375rem;
 
         @media screen and (max-width: 590px) {
-            width: 9.125rem;
-            height: 9.125rem;
+            width: 11.125rem;
+            height: 11.125rem;
         }
     }
 

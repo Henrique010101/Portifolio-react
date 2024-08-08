@@ -8,6 +8,7 @@ import StyledComponents from "../../assets/styled-components.png"
 import Sass from "../../assets/sass.png"
 import Bootstrap from "../../assets/bootstrap.png"
 import Typescript from '../../assets/Typescript-logo.png'
+import NodeJS from "../../assets/nodejs-logo.png"
 
 function skills() {
 
@@ -54,6 +55,10 @@ function skills() {
             <a href="https://cursos.alura.com.br/user/henrique2003-com/fullCertificate/0b63c6cc293bd4c564219683e36de01f" target="_blank" rel="noopener noreferrer"><button className="imgContainer" title="Git">
               <img className="img" src={Typescript} alt="Imagem logo do Typescript" />
               <p className="textSkills">Typescript</p>
+            </button></a>
+            <a href="https://cursos.alura.com.br/user/henrique2003-com/fullCertificate/0b63c6cc293bd4c564219683e36de01f" target="_blank" rel="noopener noreferrer"><button className="imgContainer" title="Git">
+              <img className="img" src={NodeJS} alt="Imagem logo do Typescript" />
+              <p className="textSkills">NodeJS</p>
             </button></a>
         </div>
     </div>
