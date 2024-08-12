@@ -5,10 +5,7 @@
     align-items: center;
     justify-content: center;
     background: var(--padrao-gradient);
-
-    @media screen and (max-width: 853px) {
-        justify-content: start;
-    }
+    
 
     .tituloSobre {
         font-size: 1.8rem;
@@ -22,9 +19,8 @@
 
         @media screen and (max-width: 500px) {
             font-size: 1.6rem;
-            width: 100%;
-            font-weight: 500;
-            padding: 4% 0% 4% 8%; 
+            width: auto;
+            padding: 1rem;
         }
     }
 
@@ -41,9 +37,11 @@
         }
 
         @media screen and (max-width: 853px) {
-            height: 100%;
-            justify-content: start;
-            align-items: start;
+            height: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             gap: 5%;
         }
 
