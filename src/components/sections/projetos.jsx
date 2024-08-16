@@ -10,7 +10,7 @@ import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 import imagemGrindzone from "../../assets/imagem-grindzone.png"
 import Login from "../../assets/siteLogin.png"
 import Focus from "../../assets/imagem-focus.png"
-import VieVi from "../../assets/Vi&Vi.png"
+import VieVi from "../../assets/vivi-inicio.png"
 import emContrucao from "../../assets/em-construcao.png"
 import jogo_da_velha from "../../assets/Jogo_da_velha.png"
 import negociacoes from "../../assets/imagem-negociacoes-ts.png";
@@ -81,14 +81,13 @@ function projetos() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="card">
-            <a href="" target="_blank">
-              <img className="building" src={emContrucao} alt="build image" />
+            <a href="https://vi-vi-odonto.vercel.app/" rel="noreferrer" target="_blank">
               <img className="img-card" src={VieVi} alt="Imagem do site Vi e Vi" />
             </a>
             <div className="text-card">
               <h2 className="titulo"><strong>Vi&Vi Odonto</strong></h2>
-              <h2 className="tecnologias">Bootstrap</h2>
-              <p className="descricao">Este site foi feito apenas com Bootstrap. um projeto pessoal (por enquanto) para meu amigo futuro Doutor, e minha amiga Doutora.</p>
+              <h2 className="tecnologias">Bootstrap | MongoDB</h2>
+              <p className="descricao">Foi utilizado Bootstrap e MongoDB, é um projeto pessoal (por enquanto) para meu amigo futuro Doutor, e minha amiga Doutora.</p>
             </div>
           </div>
         </SwiperSlide>

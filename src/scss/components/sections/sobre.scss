@@ -5,14 +5,14 @@
     align-items: center;
     justify-content: center;
     background: var(--padrao-gradient);
-    
+
 
     .tituloSobre {
         font-size: 1.8rem;
         font-weight: 500;
         color: var(--escrito-escuro);
         padding: 2rem;
-        
+
         @media screen and (max-width: 1024px) {
             font-size: 2rem;
         }
@@ -60,10 +60,11 @@
             }
 
             @media screen and (max-width: 853px) {
-                
+
                 width: 98%;
                 padding-left: 5%;
             }
+
             @media screen and (max-width: 500px) {
                 font-size: 1.1rem;
             }
@@ -103,6 +104,5 @@
             width: 15rem;
             height: 3.6rem;
         }
-
     }
 }
